@@ -1,0 +1,199 @@
+body{
+	margin: 0;
+	font-size: 16px;
+}
+@media screen and (max-width: 1800px) and (min-width: 750px){
+		nav ul>li{
+	list-style: none;
+	display: inline;
+	position: relative;
+	background-color: #8F45BA;
+	padding: 15px 10px;
+	margin-right: -7px;
+	font-size: 30px;
+		}
+	li a{
+	text-decoration: none;
+	color: white;
+ 	}
+	.cul{
+		padding-top: 170px;
+		height: 850px;
+		background: 
+		linear-gradient(#CAA6E5,transparent 90%),
+		linear-gradient(45deg, white, transparent),
+		url(../img/books.jpg) no-repeat center;
+		background-size: cover;
+	}
+	body{
+		color:#20134A;
+	}
+	.principio{
+		color: white;
+		font-style: 18px;
+		letter-spacing: 0.6em;
+		padding-bottom: 10px;
+	}
+	#uno, #dos{
+		width: 75%;
+		padding-left: 50px,
+		padding-right: 50px;
+		margin: auto;
+		max-width: 960px;
+	}
+	.oferta, .novedades{
+		width: 45%;
+	}
+	.oferta{
+		float: left;
+	}
+	.novedades{
+		float: right;
+	}
+	#griego{
+		background: 
+		url(../img/griego.jpg) no-repeat center;
+		background-size: cover;
+	}
+	#arabe{
+		background: 
+		url(../img/arabe.jpg) no-repeat center;
+		background-size: cover;
+	}
+	#japones{
+		background: 
+		url(../img/japones.jpg) no-repeat center;
+		background-size: cover;
+	}
+}
+
+@media screen and (max-width: 750px) and (min-width: 0px){
+		nav ul>li{
+	list-style: none;
+	display: inline;
+	position: relative;
+	background-color: #8F45BA;
+	padding: 8px 5px;
+	margin-right: -7px;
+	font-size: 20px;
+		}
+	li a{
+	text-decoration: none;
+	color: white;
+ 	}
+	.cul{
+		padding-top: 170px;
+		height: 850px;
+		background: 
+		linear-gradient(#66BAE6,transparent 90%),
+		linear-gradient(0deg, white, transparent),
+		url(../img/books.jpg) no-repeat center;
+		background-size: cover;
+	}
+	body{
+		color: #20134A;
+	}
+	.principio{
+		color: white;
+		font-style: 1.6em;
+		letter-spacing: 0.6em;
+		padding-bottom: 10px;
+	}
+	#uno, #dos{
+		width: 75%;
+		padding-left: 50px,
+		padding-right: 50px;
+		margin: auto;
+		max-width: 960px;
+	}
+	.oferta, .novedades{
+		width: 45%;
+	}
+	.oferta{
+		float: left;
+	}
+	.novedades{
+		float: right;
+	}
+	#griego{
+		background: 
+		url(../img/griego.jpg) no-repeat center;
+		background-size: cover;
+	}
+	#arabe{
+		background: 
+		url(../img/arabe.jpg) no-repeat center;
+		background-size: cover;
+	}
+	#japones{
+		background: 
+		url(../img/japones.jpg) no-repeat center;
+		background-size: cover;
+	}
+}
+h1{
+	font-size: 5em;
+	color: black;
+	text-transform: uppercase;
+	margin: 12px 0 0; 
+	text-shadow: 10px 10px 10px #804343;
+}
+h2{
+	font-size: 3em;
+	color: #20134A;
+	margin: 20px 0 0.5em;
+}
+}
+img{
+	width: 100%;
+	height: 901%;
+	margin-bottom: 20px;
+	border-radius: 10px;
+}
+ul, ol{
+	margin: 30px;
+}
+li{
+	margin-bottom: 10px;
+}
+#uno, header, footer{
+	text-align: center;
+}
+#uno{
+	padding-top: 60px;
+	padding-bottom: 60px;
+	border-bottom: 10px;
+}
+#dos{
+	padding-top: 80px;
+	padding-bottom: 70px;
+	border-bottom: 2px;
+}
+footer{
+	padding-top: 60px;
+	padding-bottom: 60px;
+	border-bottom: 10px solid #BF0FC5;
+}
+footer div #edgar{
+	float: right;
+}
+.actividades{
+	color: white;
+	text-align: center;
+	padding: 18% 24%;
+	border-top: 10px;
+	margin: 105px 0 60px;
+	background: url(../img/school.jpg) no-repeat center;
+}
+.lk{
+	font-size: 1.25em;
+	border-bottom: 3px;
+	text-decoration: none;
+	padding: 0 9px 3px;
+	margin-top: 20px;
+}
+#dos:after{
+	content: "";
+	display: block;
+	clear: both;
+}
